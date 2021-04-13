@@ -1,0 +1,517 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F886 ]
+[d frameptr 0 ]
+"505 /opt/microchip/xc8/v2.20/pic/sources/c90/common/doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"43 /opt/microchip/xc8/v2.20/pic/sources/c90/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.20/pic/sources/c90/common/isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"5 /opt/microchip/xc8/v2.20/pic/sources/c90/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 /opt/microchip/xc8/v2.20/pic/sources/c90/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.20/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.20/pic/sources/c90/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.20/pic/sources/c90/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 /opt/microchip/xc8/v2.20/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.20/pic/sources/c90/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 /opt/microchip/xc8/v2.20/pic/sources/c90/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"14 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/adc.c
+[v _adc_init_0 adc_init_0 `(v  1 e 1 0 ]
+"29
+[v _adc_read_0 adc_read_0 `(ui  1 e 2 0 ]
+"14 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/debug.c
+[v _debug_init debug_init `(v  1 e 1 0 ]
+"55
+[v _debug_led_toggle debug_led_toggle `(v  1 e 1 0 ]
+"17 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/io.c
+[v _io_init io_init `(v  1 e 1 0 ]
+"36
+[v _io_led_toggle io_led_toggle `(v  1 e 1 0 ]
+"40
+[v _io_beep io_beep `(v  1 e 1 0 ]
+"49
+[v _io_sw_read io_sw_read `(v  1 e 1 0 ]
+"58
+[v _io_sw_pressed io_sw_pressed `(i  1 e 2 0 ]
+"23 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/lcd.c
+[v _LCD_RS_SetLow LCD_RS_SetLow `(v  1 e 1 0 ]
+"24
+[v _LCD_RS_SetHigh LCD_RS_SetHigh `(v  1 e 1 0 ]
+"25
+[v _LCD_RW_SetLow LCD_RW_SetLow `(v  1 e 1 0 ]
+"28
+[v _lcd_write_nibble lcd_write_nibble `(v  1 e 1 0 ]
+"38
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+"52
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+"59
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+"68
+[v _lcd_cursor lcd_cursor `(v  1 e 1 0 ]
+"84
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"47 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/main.c
+[v _isr isr `II(v  1 e 1 0 ]
+"73
+[v _t0_init t0_init `(v  1 e 1 0 ]
+"84
+[v _main main `(v  1 e 1 0 ]
+"59 /opt/microchip/mplabx/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8/pic/include/proc/pic16f886.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S122 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"403
+[s S131 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S136 . 1 `S122 1 . 1 0 `S131 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES136  1 e 1 @11 ]
+"1159
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+[s S266 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1197
+[s S271 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S280 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S283 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S286 . 1 `S266 1 . 1 0 `S271 1 . 1 0 `S280 1 . 1 0 `S283 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES286  1 e 1 @31 ]
+[s S83 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1287
+[s S90 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S94 . 1 `S83 1 . 1 0 `S90 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES94  1 e 1 @129 ]
+"1461
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"2812
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"3396
+[v _ADCS0 ADCS0 `VEb  1 e 0 @254 ]
+"3399
+[v _ADCS1 ADCS1 `VEb  1 e 0 @255 ]
+"3405
+[v _ADFM ADFM `VEb  1 e 0 @1279 ]
+"3411
+[v _ADIF ADIF `VEb  1 e 0 @102 ]
+"3414
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"3417
+[v _ANS0 ANS0 `VEb  1 e 0 @3136 ]
+"3429
+[v _ANS12 ANS12 `VEb  1 e 0 @3148 ]
+"3432
+[v _ANS13 ANS13 `VEb  1 e 0 @3149 ]
+"3435
+[v _ANS2 ANS2 `VEb  1 e 0 @3138 ]
+"3438
+[v _ANS3 ANS3 `VEb  1 e 0 @3139 ]
+"3444
+[v _ANS8 ANS8 `VEb  1 e 0 @3144 ]
+"3714
+[v _GO GO `VEb  1 e 0 @249 ]
+"3765
+[v _IOCB6 IOCB6 `VEb  1 e 0 @1206 ]
+"3873
+[v _PSA PSA `VEb  1 e 0 @1035 ]
+"3900
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"3903
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"3906
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"3918
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"3921
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"3924
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"3933
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"3939
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"3942
+[v _RBIE RBIE `VEb  1 e 0 @91 ]
+"3945
+[v _RBIF RBIF `VEb  1 e 0 @88 ]
+"3948
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"3957
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"3960
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"3963
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"4098
+[v _T0CS T0CS `VEb  1 e 0 @1037 ]
+"4101
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"4104
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"4182
+[v _TRISA0 TRISA0 `VEb  1 e 0 @1064 ]
+"4188
+[v _TRISA2 TRISA2 `VEb  1 e 0 @1066 ]
+"4191
+[v _TRISA3 TRISA3 `VEb  1 e 0 @1067 ]
+"4194
+[v _TRISA4 TRISA4 `VEb  1 e 0 @1068 ]
+"4206
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"4209
+[v _TRISB1 TRISB1 `VEb  1 e 0 @1073 ]
+"4212
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1074 ]
+"4221
+[v _TRISB5 TRISB5 `VEb  1 e 0 @1077 ]
+"4224
+[v _TRISB6 TRISB6 `VEb  1 e 0 @1078 ]
+"4227
+[v _TRISB7 TRISB7 `VEb  1 e 0 @1079 ]
+"4308
+[v _VCFG0 VCFG0 `VEb  1 e 0 @1276 ]
+"4311
+[v _VCFG1 VCFG1 `VEb  1 e 0 @1277 ]
+"4371
+[v _WPUB6 WPUB6 `VEb  1 e 0 @1198 ]
+"4413
+[v _nRBPU nRBPU `VEb  1 e 0 @1039 ]
+"358 /opt/microchip/xc8/v2.20/pic/sources/c90/common/doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"13 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/io.h
+[v _swPressed swPressed `VEb  1 e 0 0 ]
+"43 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/main.c
+[v _contador contador `i  1 s 2 contador ]
+"44
+[v _distancia distancia `ui  1 e 2 0 ]
+"84
+[v _main main `(v  1 e 1 0 ]
+{
+"88
+[v main@message message `[9]uc  1 a 9 60 ]
+"137
+} 0
+"73
+[v _t0_init t0_init `(v  1 e 1 0 ]
+{
+"81
+} 0
+"505 /opt/microchip/xc8/v2.20/pic/sources/c90/common/doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"514
+[v sprintf@width width `i  1 a 2 23 ]
+"545
+[v sprintf@val val `ui  1 a 2 20 ]
+"512
+[v sprintf@c c `uc  1 a 1 26 ]
+"525
+[v sprintf@flag flag `uc  1 a 1 22 ]
+"521
+[v sprintf@prec prec `c  1 a 1 19 ]
+"507
+[v sprintf@ap ap `[1]*.4v  1 a 1 18 ]
+"505
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.24DCuc  1 p 1 12 ]
+"550
+[v sprintf@sp sp `*.4uc  1 a 1 25 ]
+"1567
+} 0
+"8 /opt/microchip/xc8/v2.20/pic/sources/c90/common/isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 1 ]
+"15
+} 0
+"15 /opt/microchip/xc8/v2.20/pic/sources/c90/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 /opt/microchip/xc8/v2.20/pic/sources/c90/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 7 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 9 ]
+"25
+} 0
+"5 /opt/microchip/xc8/v2.20/pic/sources/c90/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"52 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/lcd.c
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v lcd_puts@s s `*.26DCuc  1 p 2 4 ]
+"56
+} 0
+"24
+[v _LCD_RS_SetHigh LCD_RS_SetHigh `(v  1 e 1 0 ]
+{
+} 0
+"84
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"104
+} 0
+"25
+[v _LCD_RW_SetLow LCD_RW_SetLow `(v  1 e 1 0 ]
+{
+} 0
+"59
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+{
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+[v lcd_goto@pos pos `uc  1 a 1 4 ]
+"65
+} 0
+"68
+[v _lcd_cursor lcd_cursor `(v  1 e 1 0 ]
+{
+[v lcd_cursor@on on `i  1 p 2 4 ]
+"75
+} 0
+"38
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+{
+[v lcd_write@c c `uc  1 a 1 wreg ]
+[v lcd_write@c c `uc  1 a 1 wreg ]
+[v lcd_write@c c `uc  1 a 1 3 ]
+"42
+} 0
+"28
+[v _lcd_write_nibble lcd_write_nibble `(v  1 e 1 0 ]
+{
+[v lcd_write_nibble@c c `uc  1 a 1 wreg ]
+[v lcd_write_nibble@c c `uc  1 a 1 wreg ]
+[v lcd_write_nibble@c c `uc  1 a 1 1 ]
+"35
+} 0
+"23
+[v _LCD_RS_SetLow LCD_RS_SetLow `(v  1 e 1 0 ]
+{
+} 0
+"58 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/io.c
+[v _io_sw_pressed io_sw_pressed `(i  1 e 2 0 ]
+{
+"64
+} 0
+"36
+[v _io_led_toggle io_led_toggle `(v  1 e 1 0 ]
+{
+"38
+} 0
+"17
+[v _io_init io_init `(v  1 e 1 0 ]
+{
+"26
+} 0
+"40
+[v _io_beep io_beep `(v  1 e 1 0 ]
+{
+[v io_beep@period period `i  1 p 2 0 ]
+"47
+} 0
+"14 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/debug.c
+[v _debug_init debug_init `(v  1 e 1 0 ]
+{
+"21
+} 0
+"29 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/adc.c
+[v _adc_read_0 adc_read_0 `(ui  1 e 2 0 ]
+{
+"32
+[v adc_read_0@distancia distancia `i  1 a 2 2 ]
+"39
+} 0
+"14
+[v _adc_init_0 adc_init_0 `(v  1 e 1 0 ]
+{
+"27
+} 0
+"10 /opt/microchip/xc8/v2.20/pic/sources/c90/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 /opt/microchip/xc8/v2.20/pic/sources/c90/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 57 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 56 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 48 ]
+"70
+} 0
+"242 /opt/microchip/xc8/v2.20/pic/sources/c90/common/sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 40 ]
+[v ___flsub@b b `d  1 p 4 44 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 19 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 18 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 17 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 16 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"8 /opt/microchip/xc8/v2.20/pic/sources/c90/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S631 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S636 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S639 . 4 `l 1 i 4 0 `d 1 f 4 0 `S631 1 fAsBytes 4 0 `S636 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S639  1 a 4 34 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 28 ]
+[s S708 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S711 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S708 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S711  1 a 2 38 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 33 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 32 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 27 ]
+"8
+[v ___flmul@b b `d  1 p 4 14 ]
+[v ___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"4 /opt/microchip/xc8/v2.20/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"47 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/main.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"61
+[v isr@portB portB `uc  1 a 1 7 ]
+"70
+} 0
+"49 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/io.c
+[v _io_sw_read io_sw_read `(v  1 e 1 0 ]
+{
+[v io_sw_read@port port `uc  1 a 1 wreg ]
+"51
+[v io_sw_read@swNew swNew `uc  1 a 1 2 ]
+"49
+[v io_sw_read@port port `uc  1 a 1 wreg ]
+"50
+[v io_sw_read@swOld swOld `uc  1 s 1 swOld ]
+[v io_sw_read@port port `uc  1 a 1 1 ]
+"56
+} 0
+"55 /home/rubo/poli/PMR4506 - Micro/atividade 3/T6G1 - Daniel Imai - 9833684 - Gustavo Rubo -4584080/ultimo2.X/debug.c
+[v _debug_led_toggle debug_led_toggle `(v  1 e 1 0 ]
+{
+[v debug_led_toggle@led led `uc  1 a 1 wreg ]
+[v debug_led_toggle@led led `uc  1 a 1 wreg ]
+[v debug_led_toggle@led led `uc  1 a 1 0 ]
+"69
+} 0
